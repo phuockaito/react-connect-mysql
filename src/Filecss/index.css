@@ -1,0 +1,1969 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.ListQC {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  overflow: auto;
+  z-index: 1000;
+  height: auto;
+}
+
+.CloseListQC i {
+  position: absolute;
+  left: 0;
+}
+.ImageListQC {
+  position: relative;
+  width: 349px;
+  height: 259px;
+}
+
+.ImageListQC img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.KhungListQC {
+  position: relative;
+
+  margin: 20px;
+}
+.container input:hover {
+  max-width: 300px;
+  transition: 0.5s;
+}
+.linkQC {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+table .table-flush {
+  text-transform: capitalize;
+}
+z .form-control {
+  color: black !important;
+}
+.form-control option {
+  color: black;
+}
+.imageQuangCao {
+  position: relative;
+  max-width: 499px;
+  margin: auto;
+  height: 372px;
+}
+.imageQuangCao .AnhQuangCao {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+.PlayYoutube {
+  position: fixed;
+  width: 100%;
+  top: 10%;
+}
+.QuangCao {
+  position: fixed;
+  width: 100%;
+  top: 20%;
+}
+.fa-window-close {
+  font-size: 37px;
+  color: white;
+  top: 4px;
+  left: 433px;
+  position: relative;
+  cursor: pointer;
+}
+.close-quangcao {
+  color: white;
+  top: 4px;
+  left: 261px;
+  position: relative;
+  cursor: pointer;
+}
+.KhungYoutube,
+.KhungQuangCao {
+  z-index: 2000;
+  position: fixed;
+  background: #000000bf;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.KhungQuangCao {
+  background: #000000cf !important;
+}
+body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  background: #1d1407;
+}
+.btn-block {
+  width: 120px !important;
+}
+.AlignAdmin {
+  text-align: center;
+  color: wheat;
+}
+span.NamTong {
+  color: #00c8ff;
+}
+.DangChayQC:hover,.NgungChayQC:hover{
+  transform: scale(1.1);
+}
+.DangChayQC {
+  background: #00d400;
+  border-radius: 22px;
+  width: 125px;
+  font-size: 15px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+  transition: 0.5s;
+  
+}
+.NgungChayQC {
+  background: #d81c03;
+  border-radius: 22px;
+  width: 125px;
+  font-size: 15px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+  transition: 0.5s;
+  
+}
+p.TongTienQC {
+  float: right;
+  color: white;
+  margin-right: 6.5%;
+  font-size: 18px;
+}
+.TongTienAdmin {
+  margin-right: 2.5% !important;
+}
+.colorAdmin {
+  color: white;
+  text-align: center;
+}
+.AnhAdmin {
+  position: relative;
+  width: 60px;
+  height: 82px;
+  margin: auto;
+}
+.AnhAdmin img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#connter,
+.main {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.menu {
+  background: #1d1407;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 30;
+}
+
+/* ----thong tin web---- */
+.KhungWebSite {
+  background-color: #1d1407;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+/* ---------------login ---------------*/
+.KhungUserName {
+  text-align: center;
+}
+.KhungUserName p {
+  text-transform: capitalize;
+  margin: 10px;
+  transition: 0.5s;
+}
+.Username p.userlogin {
+  color: white;
+}
+.logout p.logoutuser {
+  color: yellow;
+  cursor: pointer;
+}
+div.Khungthongtin p.thongtin {
+  color: violet;
+  cursor: pointer;
+}
+div.Khungthongtin p.thongtin:hover,
+.logout p.logoutuser:hover {
+  transform: scale(1.1);
+}
+.Khung {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  box-sizing: border-box;
+  margin: auto;
+}
+div.login a {
+  text-decoration: none;
+}
+.icon {
+  max-width: 1000px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.icon img {
+  min-width: 200px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.timkiem {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  transition: 0.5s;
+}
+
+.timkiem input {
+  background: none;
+  width: 300px;
+  height: 40px;
+  outline: none;
+  position: relative;
+  border: 1px solid rgb(0, 255, 255);
+  border-radius: 25px;
+  color: #26de81;
+  transition: 0.5s;
+}
+.timkiem input:hover {
+  width: 300px;
+}
+.fa-search {
+  color: white;
+  position: absolute;
+  font-size: 25px;
+  display: block;
+  cursor: pointer;
+  right: 5%;
+  margin-top: 3%;
+  text-align: center;
+}
+/* ----------------Login----------------- */
+.login {
+  margin: auto;
+  transition: 0.5s;
+  position: relative;
+}
+
+.login button {
+  outline: none;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  margin-left: 35px;
+  width: 120px;
+  height: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: "Furore", sans-serif;
+  transition: 0.5s;
+  border: none;
+  border-radius: 40px;
+  background-size: 400%;
+  letter-spacing: 2px;
+  line-height: 40px;
+  position: relative;
+}
+.login button::before {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  outline: none;
+  right: -2px;
+  border-radius: 40px;
+  filter: blur(10px);
+  transition: 0.5s;
+  z-index: -1;
+  opacity: 0;
+  bottom: -2px;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+}
+.login button:hover,
+.login button:hover:before {
+  animation: animationbutton 3s linear infinite;
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+@keyframes animationbutton {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 400%;
+  }
+}
+
+/* ---------------dang ky--------------- */
+div.FromDangKyTaiKhoan {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 1000;
+}
+
+div.FromDangKyTaiKhoan::before {
+  content: "";
+  position: fixed;
+  filter: blur(1.5px);
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-image: url("../Component/Anh/user.jpg");
+}
+
+div.DangKyTaiKhoan {
+  text-align: center;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+div.DangKyTaiKhoan p {
+  text-transform: capitalize;
+}
+
+.NgaySinh,
+option {
+  width: 98px;
+  margin: 2px;
+  color: #ffffff;
+  height: 30px;
+  border-radius: 25px;
+  text-align: center;
+  border: 2px solid rgb(0, 255, 255);
+  outline: none;
+}
+
+select {
+  background: rgba(3, 0, 0, 0.788);
+  outline: none;
+}
+
+input {
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  margin: 3px;
+  height: 30px;
+  background: none;
+  border: 2px solid rgb(0, 255, 255);
+  color: white;
+  border-radius: 25px;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  outline: none;
+}
+
+input:hover {
+  width: 100%;
+  max-width: 400px;
+  border-color: rgb(9, 182, 81);
+  background: none;
+}
+
+input[type="submit"] {
+  width: 100%;
+  max-width: 150px;
+  text-align: center;
+  margin: 2px;
+  height: 40px;
+  position: relative;
+  background: none;
+  border: 2px solid rgb(9, 182, 81);
+  color: white;
+  border-radius: 24px;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  font-family: 20px;
+  cursor: pointer;
+}
+
+.hien-dang-ky {
+  opacity: 1;
+  visibility: visible;
+}
+
+input[type="submit"]:hover {
+  background: rgb(9, 182, 81);
+}
+
+form.formlogin {
+  margin-top: 170px;
+}
+
+span.close_dang_ky {
+  border: none;
+  color: #fafafa;
+  background: none;
+  border-radius: 2px;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  padding: 9px 20px;
+  box-shadow: 1px 5px 5px rgb(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  border-radius: 25px;
+  border: 2px solid rgb(9, 182, 81);
+}
+
+span.close_dang_ky:hover {
+  background: rgb(9, 182, 81);
+}
+
+div.GioiTinh {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px auto;
+  top: -3px;
+  position: relative;
+}
+
+input#Nam,
+input#Nu {
+  width: 30px;
+}
+
+label.gioitinh {
+  display: inline-block;
+  width: 50px;
+  border: none;
+  position: relative;
+  top: -13px;
+  padding-top: -10px;
+}
+
+label {
+  width: 100%;
+  display: inline-block;
+  max-width: 350px;
+  border: none;
+  line-height: 30px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 1px;
+}
+
+/* ----------hiện đăng nhập------------ */
+a.forget {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.8s;
+}
+
+a.forget:hover {
+  text-decoration: underline;
+}
+
+span.close_dang_nhap {
+  padding: 10px 20px;
+  border: none;
+  color: #fafafa;
+  background: none;
+  border-radius: 2px;
+  position: relative;
+  top: 15px;
+  box-shadow: 1px 5px 5px rgb(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  border-radius: 25px;
+  border: 2px solid rgb(9, 182, 81);
+}
+
+span.close_dang_nhap:hover {
+  background: rgb(9, 182, 81);
+}
+
+.FromDangNhapTaiKhoan {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  opacity: 1;
+  top: 0;
+  display: block;
+}
+
+div.FromDangNhapTaiKhoan::before {
+  content: "";
+  position: fixed;
+  filter: blur(1px);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../Component/Anh/pass.jpg");
+}
+div.DangNhapMatKhau {
+  text-align: center;
+  margin: auto;
+  display: block;
+  position: relative;
+  top: 200px;
+}
+div.DangNhapMatKhau a {
+  text-decoration: none;
+}
+/* ---------------menu cha--------------- */
+ul.MenuCha {
+  max-width: 1000px;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  position: relative;
+  margin: auto;
+}
+
+ul.MenuCha li {
+  padding: 10px 16px;
+}
+
+ul.MenuCha > li {
+  position: relative;
+}
+li.ChinhMau:nth-child(2):after,
+li.ChinhMau:nth-child(3):after,
+li.ChinhMau:nth-child(4):after,
+li.ChinhMau:nth-child(5):after {
+  color: #7efff5;
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 5px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid\9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+li.ChinhMau::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  transition: 0.4s;
+  background-size: 400%;
+  z-index: -1;
+  animation: animationmenu 5s linear infinite;
+  filter: blur(1px);
+  opacity: 0.8;
+}
+
+@keyframes animationmenu {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 400%;
+  }
+}
+
+.hoverChuot:before {
+  width: 0%;
+  height: 100%;
+}
+
+.hoverChuot:hover:before {
+  width: 100%;
+}
+
+ul.MenuCha li:hover a {
+  color: #ffffff;
+}
+
+ul.MenuCha > li > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #7efff5;
+  font-weight: bold;
+}
+
+/* ---------------menu con--------------- */
+ul.MenuCon {
+  background: #dd7b39;
+  transition: 0.5s;
+  list-style: none;
+  z-index: 1;
+  width: 1000px;
+  position: absolute;
+  z-index: 2;
+  margin-left: -130px;
+  margin-top: 9.5px;
+  box-sizing: border-box;
+  text-align: center;
+  transition: 0.5s;
+  /* display: none; */
+  border-radius: 15px;
+  transform: translateY(20px);
+  visibility: hidden;
+  opacity: 0;
+}
+
+#phimbo {
+  margin-left: -457px;
+}
+
+#quocgia {
+  margin-left: -241px;
+}
+
+#phimle {
+  margin-left: -355px;
+}
+
+.ChinhMau:hover ul.MenuCon {
+  /* display: block; */
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}
+ul.MenuCon li a {
+  color: white;
+  text-transform: capitalize;
+}
+ul.MenuCon li:hover > a {
+  text-decoration: underline;
+}
+
+ul.MenuCon > li {
+  width: 199.5px;
+  float: left;
+
+  transition: 0.5s;
+}
+ul.MenuCon li a {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* -------------chuyển siler------------------ */
+.KhungSiler {
+  margin: 0;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  overflow: hidden;
+  position: relative;
+}
+.KhungSiler h1 {
+  color: #ff9800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  left: 0;
+  width: 1100px;
+  margin: -40px auto 20px;
+  font-size: 25px;
+  border-bottom: 3px solid #ff9800;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 400px;
+  position: relative;
+}
+
+.imbg {
+  position: relative;
+  z-index: 1;
+}
+
+.imbg img {
+  width: 300px;
+  height: 400px;
+}
+.TenTinSiler {
+  position: absolute;
+  bottom: 0;
+  background: rgb(255, 255, 255);
+  z-index: 1;
+  width: 100%;
+  height: 18%;
+  text-align: center;
+  box-sizing: border-box;
+}
+.fa-address-card {
+  font-size: 23px;
+}
+.fas {
+  font-size: 23px;
+  font-weight: 900;
+}
+.TenTinSiler p {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 15px;
+  transform: translateY(-106%);
+  top: 50%;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+.TenTinSiler span {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 16px;
+  display: block;
+  transform: translateY(-50%);
+  top: 50%;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: red;
+}
+/* ------------------KhungPhim-------------- */
+.KhungPhim {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+/* --------trending--------------- */
+/* div#NoiDungreactss,div#noidungReactaa{
+    box-sizing: border-box;
+    height: 1345px;
+    overflow: auto;
+  } */
+.TrenDing,
+.PhimMoi,
+.NoiDung {
+  max-width: 1100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 50px;
+}
+.fa-star,
+.fa-envelope,
+.fa-facebook-square {
+  margin-right: 10px;
+}
+.NoiDungPhim {
+  position: relative;
+  width: 320px;
+  height: 400px;
+  margin: 20px;
+  transform-style: preserve-3d;
+  perspective: 600px;
+  transform: 0.5s;
+}
+.AnhPhim {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform: rotateX(0deg);
+  transition: 0.5s;
+  background: rgba(32, 32, 32, 0.884);
+}
+.AnhPhim img {
+  width: 100%;
+  height: 100%;
+}
+.ThongTinPhim::after,
+.ThongTinPhim::before {
+  background: linear-gradient(235deg, #89ff00, #060c21, #00bcd4);
+}
+.NoiDungPhim:hover .AnhPhim {
+  transform: rotateY(-180deg);
+}
+.NoiDungPhim:hover .ThongTinPhim {
+  transform: rotateY(0);
+}
+.ThongTinPhim::before {
+  content: "";
+  width: 50%;
+  position: absolute;
+  height: 100%;
+  left: 0%;
+  top: 0;
+  background: rgba(44, 44, 44, 0.952);
+}
+.AnhPhim a img {
+  width: 320px;
+  height: 400px;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+.ThongTinPhim {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  transition: 0.5s;
+  background: rgba(32, 32, 32, 0.979);
+}
+.TrenDing h1 {
+  color: #ff9800;
+  position: absolute;
+  top: 0;
+  text-transform: uppercase;
+  padding: 10px;
+  letter-spacing: 5px;
+  left: 0;
+  font-size: 25px;
+  width: 100%;
+  border-bottom: 3px solid #ff9800;
+}
+.TheLoai {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  box-sizing: border-box;
+  top: 0;
+}
+.TheLoai p {
+  text-transform: uppercase;
+  position: absolute;
+  box-sizing: border-box;
+  color: #e74c3c;
+  padding: 5px 5px;
+  width: 100%;
+  background: #f8f9fa;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.AllThongTin {
+  position: absolute;
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  top: 7%;
+}
+.AllThongTin h4 {
+  color: #cee40b;
+  margin: 10px auto;
+  letter-spacing: 1px;
+  font-size: 19px;
+  font-weight: bold;
+}
+.AllThongTin p {
+  position: relative;
+  color: #03f4f4;
+  bottom: 0;
+  font-size: 15px;
+  padding: 2px 0;
+  text-transform: capitalize;
+}
+.TrallerSwal {
+  display: block;
+  width: 60%;
+  margin: auto;
+  top: 15%;
+  right: 17%;
+  height: 67%;
+  text-align: center;
+  position: fixed;
+}
+.TrallerSwalicon {
+  font-size: 37px;
+  color: white;
+  top: -3px;
+  left: 572px;
+  position: relative;
+  cursor: pointer;
+  z-index: -1;
+}
+.swal2-popup {
+  background: none;
+  position: absolute !important;
+  position: relative;
+  z-index: 2;
+}
+.swal2-styled {
+  visibility: hidden;
+  opacity: 0;
+}
+
+button.swal2-cancel.btn.btn-danger {
+  margin: 0 21px;
+}
+.swal2-show {
+  background: none;
+}
+/* .swal2-actions{
+    display: none !important;
+    position: absolute !important;
+    position: relative;
+    z-index: 2;
+  } */
+.XemPhimFull {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin: 20px auto;
+  bottom: 0;
+}
+.XemPhimFull a {
+  color: white !important;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  text-decoration: none;
+  margin: 0 19px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  line-height: 40px;
+  display: inline-block;
+  position: relative;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  z-index: 1;
+  transition: 0.5s;
+  box-sizing: border-box;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.XemPhimFull a:hover {
+  animation: animate 5s linear infinite;
+  transform: scale(1.09);
+}
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+.XemPhimFull a::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  border-radius: 30px;
+  opacity: 0;
+  transition: 0.5s;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+}
+.XemPhimFull a:hover:after {
+  filter: blur(10px);
+  opacity: 1;
+  animation: animate 5s linear infinite;
+  transform: scale(1.09);
+}
+.AllThongTin a.XemThem {
+  color: white;
+}
+/*-----------------phim moi -----------------*/
+.PhimMoi h1 {
+  color: #ff9800;
+  position: absolute;
+  top: 0;
+  text-transform: uppercase;
+  padding: 10px;
+  letter-spacing: 5px;
+  left: 0;
+  font-size: 25px;
+  width: 100%;
+  border-bottom: 3px solid #ff9800;
+}
+/* ---------PhimHot------------- */
+.KhungPhimHot {
+  width: 100%;
+  height: 100%;
+}
+.PhimHot {
+  max-width: 1100px;
+  margin: auto;
+  position: relative;
+  padding: 0;
+  justify-items: center;
+  align-items: center;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.PhimHotTrai {
+  width: 550px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.PhimHotPhai {
+  width: 550px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.PhimHot h1:nth-child(1) {
+  color: #ff9800;
+  top: 0;
+  text-transform: uppercase;
+  padding: 10px;
+  letter-spacing: 5px;
+  left: 0;
+  font-size: 25px;
+  width: 100%;
+}
+.NoiDungPhimHotTrai {
+  /* border-right: 2px solid  #FF9800;; */
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 550px;
+  height: 147vh;
+  overflow: auto;
+}
+.NoiDungPhimHotPhai {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 550px;
+  overflow: auto;
+  height: 147vh;
+}
+.AllPhimHot {
+  width: 250px;
+  box-sizing: border-box;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+  height: 328.6px;
+}
+.AllPhimHot img {
+  width: 240px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  position: relative;
+}
+.AnhPhimHotTrai {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.AnhPhimHotTrai img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.ThongTinPhimHotTrai:hover h4,
+.ThongTinPhimHotTrai:hover .XemPhimPhimHotTrai,
+.ThongTinPhimHotTrai:hover .TrailerPhimHotTrai {
+  transform: translateY(0px);
+  visibility: visible;
+  opacity: 1;
+}
+
+.ThongTinPhimHotTrai {
+  height: 100%;
+  position: absolute;
+  background: rgb(44, 44, 44);
+  width: 100%;
+  top: 0;
+  transition: 0.5s;
+  opacity: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  /* transform: translateY(30px); */
+}
+
+.ThongTinPhimHot {
+  position: absolute;
+  width: 100%;
+  top: 13%;
+}
+.ThongTinPhimHotTrai:hover .ThongTinPhimHot p {
+  transform: translateY(0);
+}
+.ThongTinPhimHot p {
+  color: #03f4f4;
+  font-size: 14px;
+  padding: 3px 0;
+  transform: translateY(50px);
+  transition: 0.5s;
+}
+.ThongTinPhimHot span {
+  color: white;
+  font-size: 13px;
+}
+.AllPhimHot:hover .ThongTinPhimHotTrai {
+  transform: translateY(0);
+  opacity: 1;
+}
+.ThongTinPhimHotTrai h4 {
+  color: rgb(208, 243, 53);
+  font-size: 17px;
+  transition: 0.5s;
+  text-align: center;
+  top: 5px;
+  font-weight: bold;
+  transform: translateY(-60px);
+  opacity: 0;
+  visibility: hidden;
+}
+.ClickPhimHotTrai {
+  position: absolute;
+  display: flex;
+}
+.AllPhimHot:hover .TrailerPhimHotTrai {
+  transition-delay: 0.4s;
+}
+.AllPhimHot:hover .XemPhimPhimHotTrai {
+  transition-delay: 0.7s;
+}
+.TrailerPhimHotTrai,
+.XemPhimPhimHotTrai {
+  width: 100px;
+  font-size: 10px;
+  display: inline-block;
+  position: relative;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.8s;
+  transform: translateY(20px);
+}
+/* -----------------BackgroudCuoi------------------- */
+.BackgroudCuoi {
+  width: 100%;
+}
+.BackgroudCuoi::before {
+  content: "";
+  z-index: -1;
+  opacity: 0.09;
+  position: absolute;
+  width: 100%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-image: url("../Component/Anh/pass1.jpg");
+}
+.BackgroudCuoi img {
+  margin: 10px auto;
+}
+.MenuBackgroudCuoi {
+  max-width: 100%;
+  width: 1100px;
+  margin: auto;
+  height: 50vh;
+  margin-top: 50px;
+  text-align: center;
+}
+.ThongTinCuoi {
+  max-width: 100%;
+  width: 1100px;
+  margin: auto;
+  height: 50vh;
+  display: flex;
+}
+.MenuCuoi {
+  text-align: center;
+  width: 370px;
+}
+.MenuCuoi h2 {
+  color: white;
+  text-transform: capitalize;
+  font-size: 28px;
+}
+
+.TheMenu {
+  display: inline-block;
+  width: 150px;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.ThoiThieu {
+  width: 300px;
+  position: relative;
+}
+.ThoiThieu {
+  position: relative;
+  margin: 20px;
+}
+.TheMenu a {
+  margin: 5px auto;
+  padding: 10px;
+  color: #ff9800;
+  text-decoration: none;
+  font-size: 17px;
+  position: relative;
+}
+.TheMenu a::after {
+  content: "";
+  width: 0%;
+  height: 4%;
+  position: absolute;
+  bottom: 15%;
+  left: 0;
+  background: #00bcd4;
+  transition: 0.5s;
+}
+.TheMenu a:hover:after {
+  width: 100%;
+  color: white;
+}
+.TheMenu a:hover {
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  border: 5px solid #232943;
+  /* box-shadow: 0 0 2.5px 2px rgba(233, 0, 0, 0.5); */
+}
+::-webkit-scrollbar-thumb {
+  background: #ff9800;
+  border-radius: 3px;
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+/* ----------NoiDung--------------- */
+.KhungNoiDung {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-top: 20px;
+  padding: 0;
+}
+.NoiDungReact {
+  width: 100%;
+  position: relative;
+  margin: 15px auto;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.KhungPhimReact {
+  width: 100%;
+  max-width: 648px;
+  box-sizing: border-box;
+  position: relative;
+}
+/* ---------------PhimNoiBat--------------- */
+.PhimNoiBat {
+  box-sizing: border-box;
+  position: relative;
+}
+.Scrollbar {
+  height: 1483px;
+  overflow: auto;
+}
+.NoiDungNoiBat {
+  position: relative;
+  margin-bottom: 20px;
+}
+.NoiBat {
+  width: 318px;
+  margin: 10px;
+  position: relative;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin: 10px;
+  color: #dacb46;
+}
+.AnhNoiBat {
+  width: 318px;
+  height: 380px;
+  position: relative;
+}
+.AnhNoiBat img {
+  width: 316px;
+  height: 100%;
+  transition: 0.8s;
+}
+.ClickNoiBat {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  background: #00000075;
+}
+.ClickNoiBat a {
+  text-decoration: none;
+  text-transform: capitalize;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  width: 100px;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+}
+
+/* ------------------chi tiet phim------------------ */
+.AnhChiTet {
+  position: relative;
+  margin: 5px;
+}
+.ChiTietPhim {
+  width: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.PostChiTiet {
+  box-sizing: border-box;
+  width: 300px;
+  height: 400px;
+  position: relative;
+}
+.ClickPhimChiTiet {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  bottom: 0;
+}
+.PostChiTiet img {
+  height: 100%;
+  width: 100%;
+}
+.ClickPhimChiTiet a {
+  text-decoration: none;
+  text-transform: capitalize;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  margin: 5px 10px;
+  width: 120px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+.XemPhimChiTiet {
+  background-color: #d9534f;
+  border-color: #d9534f;
+  transition: 0.5s;
+  color: white !important;
+  cursor: pointer;
+}
+.TrailerChiTiet {
+  background-color: #428bca;
+  border-color: #428bca;
+  transition: 0.5s;
+  color: white !important;
+  cursor: pointer;
+}
+.XemPhimChiTiet:hover,
+.TrailerChiTiet:hover {
+  transform: scale(1.1);
+}
+.fa-star {
+  margin-right: 5px;
+}
+/* ------------------ALL Noi Ding------------------ */
+
+.NoiDungChiTiet {
+  position: relative;
+  box-sizing: border-box;
+  margin: 5px;
+  width: 325px;
+  top: -10px;
+}
+.TenPhimChiTiet h2 {
+  /* color: #ffffff;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%); */
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  padding-top: 2px;
+  /* position: absolute; */
+  /* top: 22%; */
+  /* left: 50%; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* width: 100%; */
+  /* -webkit-transform: translate(-50%, -50%); */
+  /* transform: translate(-50%, -50%); */
+}
+.LienHeQC {
+  position: fixed;
+  right: 0;
+  bottom: 2%;
+  z-index: 1000;
+}
+.react-tabs__tab-list {
+  border-bottom: none !important;
+}
+.LePhiQC {
+  text-align: center;
+  color: white;
+  margin: auto;
+  text-transform: capitalize;
+  padding: 5px 12px;
+  background: red;
+  border-radius: 5px;
+}
+.react-tabs__tab {
+  color: #03a9f4;
+}
+.LinkToQC {
+  color: white;
+  padding: 8px 13px;
+  text-transform: capitalize;
+  text-decoration: none;
+  margin: 20px;
+  background: #d0ff0094;
+  border-radius: 20px;
+}
+.LinkToQC:hover {
+  text-decoration: none;
+  color: white;
+}
+.TenPhimChiTiet {
+  width: 100%;
+  background: #8b5a38;
+  height: 13%;
+  position: relative;
+}
+.ALLChiTiet {
+  position: relative;
+  box-sizing: border-box;
+  margin: 2px;
+  width: 100%;
+  height: 345px;
+  overflow: auto;
+  color: white;
+  background: #272727;
+  padding: 5px;
+  overflow: auto;
+  box-shadow: 0 0 2.5px 2px rgba(34, 34, 34, 0.747);
+}
+.ALLChiTiet p,
+span {
+  font-size: 18px;
+  margin: 10px;
+}
+.ALLChiTiet p {
+  color: rgb(184, 184, 184);
+}
+.ALLChiTiet p span {
+  color: #03a9f4;
+}
+/* ----------nội dung phim------------- */
+
+.NoiDungPhimChiTiet {
+  position: relative;
+  /* height: 300px;
+    overflow: auto; */
+}
+.NoiDungPhimReact h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #dacb46;
+  margin: 10px;
+}
+.NoiDungPhimReact p {
+  text-align: justify;
+  padding: 10px;
+  color: #bbb;
+  font-size: 16px;
+}
+/* ----------viet cmt----------------- */
+.KhungVietCMT,
+.VietCMT {
+  height: 80px;
+  width: 100%;
+  position: relative;
+}
+.AnhVietCMT {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+.AnhVietCMT img {
+  width: 100%;
+  height: 50px;
+}
+.outthong {
+  color: #d63031;
+}
+.showthongtin span {
+  margin: 5px;
+  text-transform: capitalize;
+}
+.showthongtin .thongtinout {
+  color: #085ff0;
+}
+.showthongtin {
+  text-align: left;
+}
+.NoiDungCMT {
+  width: 100%;
+}
+input#FromCMT {
+  width: 100%;
+  max-width: none;
+  border: 1px solid red;
+  border-radius: 15px;
+  height: 45px;
+  right: 0;
+  top: 0;
+  border: 2px solid rgb(197, 197, 197);
+  position: absolute;
+  display: block;
+}
+.FromCMT:hover {
+  transform: scale(1.1);
+  border: none;
+  background: #d9534f;
+}
+.FromCMT {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: absolute;
+  right: 0;
+  text-decoration: none;
+  text-align: center;
+  top: 54px;
+  width: 61px !important;
+  color: white;
+  background: #03a9f4;
+  bottom: 2px;
+  z-index: 20;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+/*--------------------Binh Luan load-------------------- */
+.SocLoadcmt {
+  /* overflow: auto; */
+  position: relative;
+  /* height: 700px; */
+  width: 655px;
+  box-sizing: border-box;
+}
+/* .CMTLoad{
+    position: relative;
+    width: 100%;
+  } */
+.KhungBinhLuan {
+  position: relative;
+  width: 100%;
+}
+.KhungBinhLuan h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #dacb46;
+  margin: 10px;
+}
+.BinhLuan {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+}
+.cmtReact {
+  border-bottom: 0.5px solid rgb(219, 216, 11);
+}
+
+.TaiKhoanCMT {
+  position: relative;
+  width: 100%;
+}
+.Avartar {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+.Tenuser {
+  position: relative;
+  width: 650px;
+  display: block;
+}
+.Tenuser p {
+  display: block;
+  color: white;
+  position: absolute;
+  /* left: 55px; */
+  top: 10px;
+  width: 100%;
+  max-width: 500px;
+  text-transform: capitalize;
+}
+.Avartar img {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+}
+/* .TaiKhoanCMT {
+      width: 50px;
+      height: 50px;
+  } */
+.NoiDungBinhLuan p {
+  text-align: justify;
+  color: #bbb;
+  font-size: 16px;
+  /* padding: 10px; */
+}
+.maucmt {
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+.KhungEdit {
+  display: inline-block;
+
+  cursor: pointer;
+  position: absolute;
+  text-align: right;
+  width: 100%;
+}
+.EditCmt {
+  margin-right: 20px;
+  transition: 0.5;
+  color: white;
+  position: relative;
+  top: -30px;
+  display: inline-block;
+}
+.EditCmt:hover {
+  color: red;
+}
+
+.NgayCMT {
+  color: #03a9f4;
+  margin: 5px;
+}
+/* ------------PHIMcmt------------ */
+.KhungPhimCMT {
+  width: 100%;
+  max-width: 650px;
+  box-sizing: border-box;
+}
+.PhimCMT {
+  margin: 5px;
+  overflow: auto;
+  height: 1100px;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+.AllPhimCMT {
+  margin: 5px 10px 30px 10px;
+  position: relative;
+  width: 295px;
+  height: 340px;
+}
+.AnhPhimCMT img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.TenPhimCMT {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(44, 44, 44);
+}
+.TenPhimCMT h5 {
+  padding: 5px;
+  font-size: 24px;
+  color: #dacb46;
+
+  text-align: center;
+}
+.NoiDungPhimCMT {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+}
+.NoiDungPhimCMT p {
+  display: inline-block;
+  width: 295px;
+  color: #03a9f4;
+  font-size: 18px;
+}
+.NoiDungPhimCMT span,
+.AllThongTin span {
+  color: #e7e7e7;
+}
+.NoiDungPhimCMT a {
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: white;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+.NoiDungPhimCMT a:hover {
+  text-decoration: underline;
+}
+.ClickPhimCMT {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 8px;
+  bottom: 0;
+  text-align: center;
+}
+.ClickPhimCMT a {
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  text-align: center;
+  width: 105px;
+  border: none;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin: 1px;
+  transition: 0.5s;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+  color: white;
+}
+.ClickPhimCMT a::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  border-radius: 20px;
+  opacity: 0;
+  transition: 0.5s;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+}
+.ClickPhimCMT a:hover:after {
+  filter: blur(8px);
+  opacity: 1;
+  animation: animate 5s linear infinite;
+  transform: scale(1.09);
+}
+.ClickPhimCMT a:hover {
+  animation: animate 5s linear infinite;
+  transform: scale(1.09);
+}
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+.PhimCMTALL {
+  opacity: 0;
+  transition: 0.7s;
+}
+.AllPhimCMT:hover .PhimCMTALL {
+  opacity: 1;
+}
+/* -----------------BackgroudCuoi------------------- */
+.BackgroudCuoi {
+  width: 100%;
+}
+.BackgroudCuoi::before {
+  content: "";
+  z-index: -1;
+  opacity: 0.09;
+  position: absolute;
+  width: 100%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  /* background-image: url("../Anh/pass1.jpg"); */
+}
+.BackgroudCuoi img {
+  margin: 10px auto;
+}
+.MenuBackgroudCuoi {
+  max-width: 100%;
+  width: 1100px;
+  margin: auto;
+  height: 50vh;
+  text-align: center;
+}
+.ThongTinCuoi {
+  max-width: 100%;
+  width: 1100px;
+  margin: auto;
+  height: 50vh;
+  display: flex;
+}
+.MenuCuoi {
+  text-align: center;
+  width: 370px;
+}
+.MenuCuoi h2 {
+  color: white;
+  text-transform: capitalize;
+  font-size: 28px;
+}
+
+.TheMenu {
+  display: inline-block;
+  width: 150px;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.fa-envelope,
+.fa-facebook-square {
+  margin-right: 10px;
+}
+.ThoiThieu {
+  width: 300px;
+  position: relative;
+}
+.ThoiThieu {
+  position: relative;
+  margin: 20px;
+}
+.TheMenu a {
+  margin: 5px auto;
+  padding: 10px;
+  color: #ff9800;
+  text-decoration: none;
+  font-size: 17px;
+  position: relative;
+}
+.TheMenu a::after {
+  content: "";
+  width: 0%;
+  height: 4%;
+  position: absolute;
+  bottom: 15%;
+  left: 0;
+  background: #00bcd4;
+  transition: 0.5s;
+}
+.TheMenu a:hover:after {
+  width: 100%;
+  color: white;
+}
+.TheMenu a:hover {
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  border: 5px solid #232943;
+  /* box-shadow: 0 0 2.5px 2px rgba(233, 0, 0, 0.5); */
+}
+::-webkit-scrollbar-thumb {
+  background: #ff9800;
+  border-radius: 3px;
+}
+.swiper-pagination-bullet {
+  background: white !important;
+}
